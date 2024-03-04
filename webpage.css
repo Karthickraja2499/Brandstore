@@ -1,0 +1,700 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden;
+  max-width: 100%; */
+}
+
+.background {
+  background-image: url(images/download.jpeg);
+  background-color: transparent;
+  background-size: contain;
+  font-family: "lato", sans-serif;
+  position: fixed;
+  left: 0;
+  right: 0;
+  min-width: 100vw;
+  min-height: 100vw;
+  z-index: -1;
+  border-image-width: 10%;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  display: inline-flex;
+  color: white;
+  width: 100%;
+}
+.headrigth{
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 25%;
+  width: 30%;
+}
+.headleft{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+.img {
+  width: 140px;
+  height: 45px;
+}
+
+.weigth {
+  font-weight: 550;
+}
+
+.lineheigth {
+  line-height: 45px;
+  z-index: 10;
+}
+
+.hero {
+  padding: 7% 0% 15% 0%;
+}
+
+.hero .herotext {
+  z-index: 10;
+  position: relative;
+  margin-left: 2%;
+}
+
+.hero::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-flex;
+  z-index: 0;
+  height: 720px;
+}
+
+.text {
+  color: white;
+  font-size: 4.125rem;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.text1 {
+  color: white;
+  font-size: 1.625rem;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.button {
+  background-color: rgb(245, 240, 240);
+  border: none;
+  width: 13%;
+  padding: 15px 20px;
+  margin-top: 2%;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.button1 {
+  width: 13%;
+  padding: 15px 20px;
+  background-color: transparent;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  margin-left: 1%;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+
+.images-section {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  padding: 0 0 8%;
+}
+
+.img1 {
+  width: 400px;
+  height: 450px;
+}
+
+.img2 {
+  width: 400px;
+  height: 450px;
+}
+
+.img3 {
+  width: 400px;
+  height: 450px;
+}
+
+.image__container {
+  position: relative;
+}
+
+.overlay {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-flex;
+  z-index: 0;
+}
+
+.text2 {
+  position: absolute;
+  top: 55%;
+  left: 8%;
+  color: white;
+  font-family: "lato", sans-serif;
+}
+
+.text3 {
+  position: absolute;
+  top: 55%;
+  left: 8%;
+  color: white;
+  font-family: "lato", sans-serif;
+}
+
+.text4 {
+  position: absolute;
+  top: 55%;
+  left: 8%;
+  color: white;
+  font-family: "lato", sans-serif;
+}
+
+.txt {
+  position: absolute;
+  top: 63%;
+  left: 8%;
+  color: white;
+  font-family: "lato", sans-serif;
+  margin-top: 4%;
+}
+
+.txt1 {
+  position: absolute;
+  top: 63%;
+  left: 8%;
+  color: white;
+  font-family: "lato", sans-serif;
+  margin-top: 4%;
+}
+
+.txt2 {
+  position: absolute;
+  top: 63%;
+  left: 8%;
+  color: white;
+  font-family: "lato", sans-serif;
+  margin-top: 4%;
+}
+
+.button2 {
+  position: absolute;
+  top: 75%;
+  left: 8%;
+  background-color: rgb(245, 240, 240);
+  border: none;
+  width: 39%;
+  padding: 15px 20px;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 8%;
+}
+
+.button2:hover {
+  background-color: black;
+  color: white;
+}
+
+.button3 {
+  position: absolute;
+  top: 75%;
+  left: 8%;
+  background-color: rgb(245, 240, 240);
+  border: none;
+  width: 39%;
+  padding: 15px 20px;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 8%;
+}
+
+.button3:hover {
+  background-color: black;
+  color: white;
+}
+
+.button4 {
+  position: absolute;
+  top: 75%;
+  left: 8%;
+  background-color: rgb(245, 240, 240);
+  border: none;
+  width: 39%;
+  padding: 15px 20px;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 8%;
+}
+
+.button4:hover {
+  background-color: black;
+  color: white;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-around;
+  padding: 7% 0% 7% 0%;
+}
+
+.slide3 {
+  background: whitesmoke;
+  padding-top: 8%;
+  height: 2050px;
+}
+
+.slide3head {
+  text-align: center;
+  font-weight: 625px;
+}
+
+.boarderline {
+  border-bottom: 2px solid rgb(63, 63, 183);
+  width: 10%;
+  margin-left: 45%;
+  margin-top: 3%;
+}
+
+.slide3images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 4%;
+}
+
+.slide3img {
+  width: 90%;
+  height: 60%;
+}
+
+.text5 {
+  line-height: 40px;
+  font-family: "lato", sans-serif;
+}
+
+.boarder0 {
+  display: flex;
+  gap: 10px;
+}
+
+.boarder1 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: rgb(49, 118, 222);
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.boarder2 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: rgb(0, 255, 98);
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.boarder3 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: rgb(255, 60, 0);
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.boarder4 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: rgb(23, 22, 22);
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.boarder5 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: brown;
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.boarder6 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: rgb(243, 64, 9);
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.boarder7 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: rgb(53, 196, 206);
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.boarder8 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: rgb(57, 217, 70);
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.boarder9 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: rgb(255, 60, 0);
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.boarder10 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: rgb(15, 90, 177);
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.boarder11 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: rgb(255, 60, 0);
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.boarder12 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: violet;
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.boarder13 {
+  border: 0px solid rgb(204, 204, 231);
+  border-radius: 20px;
+  background: brown;
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.banner {
+  background-image: url(images/banner-03.jpg);
+  height: 500px;
+  background-size: cover;
+  margin: 10% 1% 0 1%;
+  background-attachment: fixed;
+  background-color: transparent;
+}
+
+.bannertext {
+  color: white;
+  font-family: "lato", sans-serif;
+  padding: 8%;
+  line-height: 250%;
+}
+
+.button5 {
+  position: absolute;
+  background-color: rgb(245, 240, 240);
+  border: none;
+  width: 12%;
+  padding: 4px;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 2%;
+  font-size: 13px;
+}
+
+.button5:hover {
+  background-color: black;
+  color: white;
+}
+
+.overbanner {
+  position: relative;
+
+}
+
+.overlay2 {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-flex;
+  z-index: -1;
+  height: 500px;
+}
+
+.flextag {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 10%;
+  /* font-size: 10px; */
+}
+
+.tag {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.imgtag {
+  height: 50px;
+  width: 50px;
+}
+
+.boarderend {
+  border: 0.1px;
+  border-style: inset;
+  border-color: aliceblue;
+}
+
+.last {
+  font-weight: 900;
+  font-size: 26px;
+  background-color: white;
+  height: 140px;
+  padding: 4% 0% 0% 2%;
+  font-family: 'Lato', sans-serif;
+}
+
+.hover {
+  color: black;
+
+}
+
+.hover:hover {
+  color: rgb(43, 197, 240);
+}
+
+.end {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding-top: 8%;
+  height: 400px;
+
+}
+
+.logodnk {
+  width: 90px;
+  height: 30px;
+}
+
+.textlogo {
+  margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  font-family: 'Lato', sans-serif;
+}
+
+.for {
+  margin-left: 6%;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  font-weight: 350;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+.h {
+  color: black;
+  opacity: 0.6;
+}
+
+.h:hover {
+  color: rgb(13, 102, 236);
+}
+
+.Subscribe {
+  margin-left: 6%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  font-family: 'Lato', sans-serif;
+}
+
+.input-field {
+  width: 120%;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.button6 {
+  border-style: solid;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  background-color: rgb(17, 120, 237);
+  color: white;
+  padding-top: 16px;
+  padding-right: 28px;
+  padding-bottom: 16px;
+  padding-left: 28px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.button6:hover {
+  background-color: rgb(0, 42, 255);
+}
+
+.lastend {
+  background-color: white;
+  height: 100px;
+}
+
+.lastside {
+  margin-left: 2%;
+  padding-top: 2%;
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.endlogo {
+  display: flex;
+  gap: 30px;
+}
+
+.fa-facebook-f {
+  color: black;
+}
+
+.fa-facebook-f:hover {
+  color: rgb(0, 179, 255);
+}
+
+.fa-youtube {
+  color: black;
+}
+
+.fa-youtube:hover {
+  color: rgb(0, 179, 255);
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-twitter:hover {
+  color: rgb(0, 179, 255);
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.fa-instagram:hover {
+  color: rgb(0, 179, 255);
+}
+
+.fa-google {
+  color: black;
+}
+
+.fa-google:hover {
+  color: rgb(0, 179, 255);
+}
+
+.fa-whatsapp {
+  color: black;
+}
+
+.fa-whatsapp:hover {
+  color: rgb(0, 179, 255);
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
